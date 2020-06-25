@@ -281,3 +281,23 @@ footer {
       display: inline-block;
       background-color: #81b3d2;
       margin: 0px 4px; }
+    footer .social-foot a:first-child {
+      background-image: url("../img/icon-twitter.svg");
+      background-repeat: no-repeat;
+      background-position: center; }
+    footer .social-foot a:nth-child(2) {
+      background-image: url("../img/icon-facebook.svg");
+      background-repeat: no-repeat;
+      background-position: center; }
+    footer .social-foot a:last-child {
+      background-image: url("../img/icon-youtube.svg");
+      background-repeat: no-repeat;
+      background-position: center; }
+  footer .foot-logo {
+    text-align: right; }
+    footer .foot-logo span {
+      font-family: "PTSans", sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #000;
+      padding-right: 10px; }

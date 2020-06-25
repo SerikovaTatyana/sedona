@@ -436,5 +436,41 @@ footer {
             background-color: #81b3d2;
             margin: 0px 4px;
         }
+
+        a:first-child  {
+            
+            background-image: url('../img/icon-twitter.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        a:nth-child(2)  {
+            
+            background-image: url('../img/icon-facebook.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        a:last-child {
+            
+            background-image: url('../img/icon-youtube.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+    }
+
+    .foot-logo {
+        text-align: right;
+
+        span {
+
+            font-family: "PTSans", sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #000;
+            padding-right: 10px;
+        
+        }
     }
 }
